@@ -20,3 +20,10 @@ def map_to_double(arr)
   end
   return new_arr
 end
+def map_to_square(arr)
+  new_arr=[]
+   for i in arr do 
+    new_arr.push(i*i)
+  end
+  return new_arr
+end

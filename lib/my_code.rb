@@ -13,7 +13,7 @@ def map_to_no_change(arr)
   return arr
 end
 
-def methods map_to_double(arr)
+def map_to_double(arr)
   new_arr=[]
    for i in arr do 
     new_arr.push(i*2)

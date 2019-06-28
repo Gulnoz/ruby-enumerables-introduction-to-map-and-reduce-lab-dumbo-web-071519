@@ -9,5 +9,6 @@ def map_to_negativize(arr)
   return new_arr
 end
 def map_to_no_change(arr)
-  
+  return arr
+end
   

@@ -1,6 +1,8 @@
 # My Code here....
-new_arr=[]
+
 def map_to_negativize(arr)
+  new_arr=[]
+   
   for i in arr do 
     new_arr.push(i*(-1))
   end
@@ -12,5 +14,9 @@ def map_to_no_change(arr)
 end
 
 def methods map_to_double(arr)
-  
-  
+  new_arr=[]
+   for i in arr do 
+    new_arr.push(i*(2))
+  end
+  return new_arr
+end

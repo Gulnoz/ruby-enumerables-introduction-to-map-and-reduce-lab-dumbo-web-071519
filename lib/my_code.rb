@@ -1,8 +1,6 @@
 # My Code here....
-
+new_arr=[]
 def map_to_negativize(arr)
-  new_arr=[]
-   
   for i in arr do 
     new_arr.push(i*(-1))
   end

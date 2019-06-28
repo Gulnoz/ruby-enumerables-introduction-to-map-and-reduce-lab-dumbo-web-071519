@@ -16,7 +16,7 @@ end
 def methods map_to_double(arr)
   new_arr=[]
    for i in arr do 
-    new_arr.push(i*(2))
+    new_arr.push(i*2)
   end
   return new_arr
 end

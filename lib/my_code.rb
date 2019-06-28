@@ -39,6 +39,5 @@ def reduce_to_all_true(arr)
   if(!i)
     return be_falsy
   end
-  return
-  end
-  
+ end
+   return 

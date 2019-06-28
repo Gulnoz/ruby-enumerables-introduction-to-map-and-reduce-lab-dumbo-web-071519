@@ -28,5 +28,9 @@ def map_to_square(arr)
   return new_arr
 end
 def reduce_to_total(arr)
-  total=arr[0]
-  
+  total=0
+  for i in arr do 
+    total+=i
+  end
+  return total
+end

@@ -42,3 +42,11 @@ def reduce_to_all_true(arr)
   end
   return true
 end
+def reduce_to_any_true(arr)
+  for i in arr do 
+    if(i)
+      return true
+    end
+  end
+  return false
+end

@@ -1,4 +1,5 @@
 # My Code here....
+
 def map_to_negativize(arr)
   new_arr=[]
    
@@ -11,4 +12,7 @@ end
 def map_to_no_change(arr)
   return arr
 end
+
+def methods map_to_double(arr)
+  
   

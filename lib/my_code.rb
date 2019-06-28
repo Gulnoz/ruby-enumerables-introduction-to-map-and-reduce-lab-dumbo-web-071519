@@ -23,7 +23,7 @@ end
 def map_to_square(arr)
   new_arr=[]
    for i in arr do 
-    new_arr.push(i*i)
+    new_arr.push(i**2)
   end
   return new_arr
 end

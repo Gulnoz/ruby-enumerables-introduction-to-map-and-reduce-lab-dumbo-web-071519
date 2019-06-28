@@ -35,4 +35,9 @@ def reduce_to_total(arr,start=0)
   return total
 end
 def reduce_to_all_true(arr)
+  for i in arr do 
+  if(!i)
+    return 
+    total+=i
+  end
   

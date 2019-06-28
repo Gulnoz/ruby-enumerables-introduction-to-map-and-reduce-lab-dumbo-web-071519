@@ -37,7 +37,7 @@ end
 def reduce_to_all_true(arr)
   for i in arr do 
     if(!i)
-      return be_falsy
+      return false
     end
   end
   return be_truthy

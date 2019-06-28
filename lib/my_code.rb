@@ -40,5 +40,5 @@ def reduce_to_all_true(arr)
       return false
     end
   end
-  return be_truthy
+  return true
 end
